@@ -1,0 +1,7 @@
+{
+  "name": "nombreProyecto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,7 @@
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+.pl-5 {
+    padding-left: 5px;
+}

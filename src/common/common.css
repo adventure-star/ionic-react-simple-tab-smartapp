@@ -1,0 +1,137 @@
+.bg-red {
+    background-color:red;
+}
+.bg-lightblue {
+    background-color: aqua;
+}
+.title {
+    padding: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+.h-56 {
+    height:56px;
+}
+.text-white {
+    color: white;
+}
+.font-italic {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.text-center {
+    text-align: center;
+}
+.text-bold {
+    font-size: 800;
+}
+.p-5 {
+    padding:5px;
+}
+.modal-about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right: 10px;
+    box-shadow: cadetblue;
+    max-height: 300px;
+    background-color: cornflowerblue;
+}
+.modal-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.modal-about-content {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)
+}
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+/* DOES NOT WORK - not specific enough */
+.action-sheet-group {
+    background: #e5e5e5;
+}
+  
+  /* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class .action-sheet-group {
+    background: #e5e5e5;
+}
+
+/* DOES NOT WORK - not specific enough */
+.ion-loading {
+    color: green;
+  }
+  
+/* Works - pass "my-custom-class" in cssClass to increase specificity */
+.my-custom-class {
+    color: green;
+}
+.my-custom-class {
+    --background: #222;
+    --spinner-color: #fff;
+
+    color: #fff;
+}
+.w-full {
+    width:100%;
+}
+.py-5 {
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.ion-toggle {
+    --background: #000;
+    --background-checked: #7a49a5;
+  
+    --handle-background: #7a49a5;
+    --handle-background-checked: #000;
+}
+
+.ion-toggle::before {
+    position: absolute;
+
+    top: 16px;
+    left: 10px;
+
+    content: "ON";
+
+    color: white;
+    font-size: 8px;
+
+    z-index: 1;
+}
+.ion-toggle {
+    width: 40px;
+    height: 15px;
+}
+.bg-red {
+    background-color: red;
+}
+
+.color-yellow {
+    color:yellow;
+}
+
+.color-white {
+    color:white;
+}
+.change-color {
+
+    --color:white;
+    --color-focused: yellow;
+    --color-selected: yellow;
+}
+.item {
+    --background: white;
+    --background-focused: yellow;
+}
